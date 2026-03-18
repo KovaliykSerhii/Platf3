@@ -1,0 +1,61 @@
+# Flutter/Dart project .gitignore
+# General
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+Thumbs.db
+desktop.ini
+*.db
+*.db-journal
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.build/
+# Generated files
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Build outputs
+/build/
+/coverage/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Symbolication and obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
